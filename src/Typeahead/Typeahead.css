@@ -1,0 +1,25 @@
+#selectedList {
+	margin: 10px auto;
+	display: block;
+	border-radius: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 60%;
+}
+
+td{
+	text-align: center;
+	border: 1px solid black;
+  	padding: 8px;
+}
+
+.boldText {
+	font-weight: bold;
+}
+
+tr:hover, .activeRow {
+	background-color: lawngreen;
+	font-style: italic;
+}
